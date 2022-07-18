@@ -11,8 +11,11 @@ Este programa está destinado para su uso en una Pizzería, ya que en él vamos 
 
 Descripción del proyecto:
 > Posee un menú de Bienvenida donde el usuario podrá Iniciar Sesión o Registrarse según lo desee.
+> 
 > Sí el usuario desea iniciar sesión se abre un formulario de Login para el inicio de sesión y dependiendo de si el usuario es un Administrador o un Cliente redirecciona a un formulario de ABM o al formulario de Beneficios para clientes registrados.
+> 
 > Sí el usuario desea registrarse, se abre un formulario de Registro donde se le piden los datos para crear su usuario.
+> 
 > El Administrador del Servidor tiene los permisos necesarios para ver el listado de los usuarios, modificarlos, eliminarlos y agregar en el caso de que sea necesario.
 
 Acceso al Proyecto:
