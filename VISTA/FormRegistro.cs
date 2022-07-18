@@ -12,9 +12,10 @@ namespace VISTA
 {
     public partial class FormRegistro : Form
     {
+        //Declaro variables temporales para crear los objetos del modelo
         CONTROLADORA.CLIENTES cCLIENTES;
         MODELO.CLIENTE oCLIENTE;
-
+        //Variable para la accion
         MODELO.ACCION ACCION;
 
         public FormRegistro(MODELO.CLIENTE miCLIENTE, MODELO.ACCION miACCION)
@@ -33,11 +34,6 @@ namespace VISTA
                 txtMAIL.Text = oCLIENTE.EMAIL;
                 txtDNI.Text = oCLIENTE.DNI.ToString();
                 txtCONTRASEÑA.Text = oCLIENTE.CONTRASENIA;
-                /*
-                if (ACCION == MODELO.ACCION.CONSULTAR)
-                {
-                    btnREGISTRARSE.Enabled = false;
-                }*/
             }
         }
 
@@ -107,6 +103,21 @@ namespace VISTA
             }
 
             this.DialogResult = DialogResult.OK;
+        }
+
+        private void btnLIMPIAR_Click(object sender, EventArgs e)
+        {
+            LIMPIAR_CAMPOS();
+        }
+
+        private void LIMPIAR_CAMPOS()
+        {
+            txtNOMBRE.Clear();
+            txtMAIL.Clear();
+            txtCONTRASEÑA.Clear();
+            txtTEL.Clear();
+            txtDOMICILIO.Clear();
+            txtDNI.Clear();
         }
     }
 }

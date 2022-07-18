@@ -43,6 +43,7 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.btnLIMPIAR = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // txtDNI
@@ -75,7 +76,7 @@
             // 
             this.btnREGISTRARSE.Location = new System.Drawing.Point(12, 273);
             this.btnREGISTRARSE.Name = "btnREGISTRARSE";
-            this.btnREGISTRARSE.Size = new System.Drawing.Size(271, 23);
+            this.btnREGISTRARSE.Size = new System.Drawing.Size(177, 23);
             this.btnREGISTRARSE.TabIndex = 34;
             this.btnREGISTRARSE.Text = "Registrarse";
             this.btnREGISTRARSE.UseVisualStyleBackColor = true;
@@ -162,12 +163,23 @@
             this.label1.TabIndex = 20;
             this.label1.Text = "Nombre";
             // 
+            // btnLIMPIAR
+            // 
+            this.btnLIMPIAR.Location = new System.Drawing.Point(195, 273);
+            this.btnLIMPIAR.Name = "btnLIMPIAR";
+            this.btnLIMPIAR.Size = new System.Drawing.Size(91, 23);
+            this.btnLIMPIAR.TabIndex = 38;
+            this.btnLIMPIAR.Text = "Limpiar";
+            this.btnLIMPIAR.UseVisualStyleBackColor = true;
+            this.btnLIMPIAR.Click += new System.EventHandler(this.btnLIMPIAR_Click);
+            // 
             // FormRegistro
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Khaki;
             this.ClientSize = new System.Drawing.Size(401, 310);
+            this.Controls.Add(this.btnLIMPIAR);
             this.Controls.Add(this.txtDNI);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.btnSALIR);
@@ -207,5 +219,6 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button btnLIMPIAR;
     }
 }

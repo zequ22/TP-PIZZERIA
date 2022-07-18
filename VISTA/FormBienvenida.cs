@@ -24,17 +24,20 @@ namespace VISTA
 
         private void btnSALIR_Click(object sender, EventArgs e)
         {
+            //Salir del programa
             Application.Exit();
         }
 
         private void btnINICIARSESION_Click(object sender, EventArgs e)
         {
+            //Inicia el formulario de inicio de sesion
             FormLogin formuLogin = new FormLogin();
             formuLogin.Show();
         }
 
         private void btnREGISTRARME_Click(object sender, EventArgs e)
         {
+            //Inicia el formulario de registro
             FormRegistro formuRegistro = new FormRegistro(new MODELO.CLIENTE(),MODELO.ACCION.AGREGAR);
             formuRegistro.Show();
         }

@@ -31,6 +31,7 @@ namespace VISTA
         //Declaro variables temporales para crear los objetos del modelo
         private CONTROLADORA.CLIENTES cCLIENTES;
         private MODELO.CLIENTE oCLIENTE;
+
         //Indica la accion
         private MODELO.ACCION ACCION;
 
