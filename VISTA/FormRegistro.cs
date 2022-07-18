@@ -96,13 +96,18 @@ namespace VISTA
             if(ACCION == MODELO.ACCION.AGREGAR)
             {
                 cCLIENTES.AGREGAR_CLIENTE(oCLIENTE);
+                MessageBox.Show("Registro Exitoso");
+                LIMPIAR_CAMPOS();
             }
             else
             {
                 cCLIENTES.MODIFICAR_CLIENTE(oCLIENTE);
+                MessageBox.Show("Cambio Exitoso");
+                LIMPIAR_CAMPOS();
             }
 
             this.DialogResult = DialogResult.OK;
+            
         }
 
         private void btnLIMPIAR_Click(object sender, EventArgs e)
