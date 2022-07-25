@@ -39,42 +39,50 @@
             // 
             // btnSALIR
             // 
+            this.btnSALIR.BackColor = System.Drawing.Color.LightSeaGreen;
+            this.btnSALIR.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnSALIR.Location = new System.Drawing.Point(692, 352);
             this.btnSALIR.Name = "btnSALIR";
             this.btnSALIR.Size = new System.Drawing.Size(75, 23);
             this.btnSALIR.TabIndex = 9;
             this.btnSALIR.Text = "Salir";
-            this.btnSALIR.UseVisualStyleBackColor = true;
+            this.btnSALIR.UseVisualStyleBackColor = false;
             this.btnSALIR.Click += new System.EventHandler(this.btnSALIR_Click);
             // 
             // btnELIMINAR
             // 
+            this.btnELIMINAR.BackColor = System.Drawing.Color.Tomato;
+            this.btnELIMINAR.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnELIMINAR.Location = new System.Drawing.Point(174, 352);
             this.btnELIMINAR.Name = "btnELIMINAR";
             this.btnELIMINAR.Size = new System.Drawing.Size(75, 23);
             this.btnELIMINAR.TabIndex = 8;
             this.btnELIMINAR.Text = "Eliminar";
-            this.btnELIMINAR.UseVisualStyleBackColor = true;
+            this.btnELIMINAR.UseVisualStyleBackColor = false;
             this.btnELIMINAR.Click += new System.EventHandler(this.btnELIMINAR_Click);
             // 
             // btnMODIFICAR
             // 
+            this.btnMODIFICAR.BackColor = System.Drawing.Color.DarkOrange;
+            this.btnMODIFICAR.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnMODIFICAR.Location = new System.Drawing.Point(93, 352);
             this.btnMODIFICAR.Name = "btnMODIFICAR";
             this.btnMODIFICAR.Size = new System.Drawing.Size(75, 23);
             this.btnMODIFICAR.TabIndex = 7;
             this.btnMODIFICAR.Text = "Modificar";
-            this.btnMODIFICAR.UseVisualStyleBackColor = true;
+            this.btnMODIFICAR.UseVisualStyleBackColor = false;
             this.btnMODIFICAR.Click += new System.EventHandler(this.btnMODIFICAR_Click);
             // 
             // btnAGREGAR
             // 
+            this.btnAGREGAR.BackColor = System.Drawing.Color.LightGreen;
+            this.btnAGREGAR.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnAGREGAR.Location = new System.Drawing.Point(12, 352);
             this.btnAGREGAR.Name = "btnAGREGAR";
             this.btnAGREGAR.Size = new System.Drawing.Size(75, 23);
             this.btnAGREGAR.TabIndex = 6;
             this.btnAGREGAR.Text = "Agregar";
-            this.btnAGREGAR.UseVisualStyleBackColor = true;
+            this.btnAGREGAR.UseVisualStyleBackColor = false;
             this.btnAGREGAR.Click += new System.EventHandler(this.btnAGREGAR_Click);
             // 
             // dgvABM

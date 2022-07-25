@@ -49,32 +49,38 @@
             // 
             // btnSALIR
             // 
+            this.btnSALIR.BackColor = System.Drawing.Color.Tomato;
+            this.btnSALIR.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnSALIR.Location = new System.Drawing.Point(41, 179);
             this.btnSALIR.Name = "btnSALIR";
             this.btnSALIR.Size = new System.Drawing.Size(116, 23);
             this.btnSALIR.TabIndex = 8;
             this.btnSALIR.Text = "Salir";
-            this.btnSALIR.UseVisualStyleBackColor = true;
+            this.btnSALIR.UseVisualStyleBackColor = false;
             this.btnSALIR.Click += new System.EventHandler(this.btnSALIR_Click);
             // 
             // btnREGISTRARME
             // 
+            this.btnREGISTRARME.BackColor = System.Drawing.Color.Orange;
+            this.btnREGISTRARME.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnREGISTRARME.Location = new System.Drawing.Point(41, 141);
             this.btnREGISTRARME.Name = "btnREGISTRARME";
             this.btnREGISTRARME.Size = new System.Drawing.Size(116, 23);
             this.btnREGISTRARME.TabIndex = 7;
             this.btnREGISTRARME.Text = "Registrarme";
-            this.btnREGISTRARME.UseVisualStyleBackColor = true;
+            this.btnREGISTRARME.UseVisualStyleBackColor = false;
             this.btnREGISTRARME.Click += new System.EventHandler(this.btnREGISTRARME_Click);
             // 
             // btnINICIARSESION
             // 
+            this.btnINICIARSESION.BackColor = System.Drawing.Color.DarkGoldenrod;
+            this.btnINICIARSESION.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnINICIARSESION.Location = new System.Drawing.Point(41, 112);
             this.btnINICIARSESION.Name = "btnINICIARSESION";
             this.btnINICIARSESION.Size = new System.Drawing.Size(116, 23);
             this.btnINICIARSESION.TabIndex = 6;
             this.btnINICIARSESION.Text = "Iniciar Sesion";
-            this.btnINICIARSESION.UseVisualStyleBackColor = true;
+            this.btnINICIARSESION.UseVisualStyleBackColor = false;
             this.btnINICIARSESION.Click += new System.EventHandler(this.btnINICIARSESION_Click);
             // 
             // label1

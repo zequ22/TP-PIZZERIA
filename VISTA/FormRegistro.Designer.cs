@@ -64,22 +64,26 @@
             // 
             // btnSALIR
             // 
+            this.btnSALIR.BackColor = System.Drawing.Color.Tomato;
+            this.btnSALIR.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnSALIR.Location = new System.Drawing.Point(292, 273);
             this.btnSALIR.Name = "btnSALIR";
             this.btnSALIR.Size = new System.Drawing.Size(91, 23);
             this.btnSALIR.TabIndex = 35;
             this.btnSALIR.Text = "Salir";
-            this.btnSALIR.UseVisualStyleBackColor = true;
+            this.btnSALIR.UseVisualStyleBackColor = false;
             this.btnSALIR.Click += new System.EventHandler(this.btnSALIR_Click);
             // 
             // btnREGISTRARSE
             // 
+            this.btnREGISTRARSE.BackColor = System.Drawing.Color.LightGreen;
+            this.btnREGISTRARSE.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnREGISTRARSE.Location = new System.Drawing.Point(12, 273);
             this.btnREGISTRARSE.Name = "btnREGISTRARSE";
             this.btnREGISTRARSE.Size = new System.Drawing.Size(177, 23);
             this.btnREGISTRARSE.TabIndex = 34;
             this.btnREGISTRARSE.Text = "Registrarse";
-            this.btnREGISTRARSE.UseVisualStyleBackColor = true;
+            this.btnREGISTRARSE.UseVisualStyleBackColor = false;
             this.btnREGISTRARSE.Click += new System.EventHandler(this.btnREGISTRARSE_Click);
             // 
             // txtDOMICILIO

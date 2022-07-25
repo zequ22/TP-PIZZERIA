@@ -16,5 +16,10 @@ namespace VISTA
         {
             InitializeComponent();
         }
+
+        private void FormBeneficios_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

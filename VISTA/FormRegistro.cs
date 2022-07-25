@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Security.Cryptography;
 
 namespace VISTA
 {
@@ -98,12 +99,14 @@ namespace VISTA
                 cCLIENTES.AGREGAR_CLIENTE(oCLIENTE);
                 MessageBox.Show("Registro Exitoso");
                 LIMPIAR_CAMPOS();
+                this.Close();
             }
             else
             {
                 cCLIENTES.MODIFICAR_CLIENTE(oCLIENTE);
                 MessageBox.Show("Cambio Exitoso");
                 LIMPIAR_CAMPOS();
+                this.Close();
             }
 
             this.DialogResult = DialogResult.OK;
@@ -124,5 +127,6 @@ namespace VISTA
             txtDOMICILIO.Clear();
             txtDNI.Clear();
         }
+
     }
 }
