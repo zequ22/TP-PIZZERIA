@@ -35,6 +35,8 @@ namespace VISTA
                 txtMAIL.Text = oCLIENTE.EMAIL;
                 txtDNI.Text = oCLIENTE.DNI.ToString();
                 txtCONTRASEÑA.Text = oCLIENTE.CONTRASENIA;
+
+                btnREGISTRARSE.Text = "Modificar";
             }
         }
 
