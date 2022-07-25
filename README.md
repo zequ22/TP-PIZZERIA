@@ -27,12 +27,13 @@ Entity Framework
 SQL Server 18
 Git Bash
 Git Hub
+Recursos visuales:
+https://icon-icons.com/es/
 
 Equipo de Desarrollo:
 Alderete, Ezequiel Alejandro.
 Ruslender, Francisco Aaron.  
 Maujo, Santiago. 
 Fumagallo Azuaga, Guillermo Lautaro.
-Calderon Ortega, Valentin.
 
 19/07/2022
