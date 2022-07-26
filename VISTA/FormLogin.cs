@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Data.SqlClient;
 using System.Configuration;
+using System.Security.Cryptography;
 
 
 namespace VISTA
@@ -85,7 +86,7 @@ namespace VISTA
                 using(SqlConnection conexion = new SqlConnection(cnn))
                 {
                     conexion.Open();
-                    using (SqlCommand cmd = new SqlCommand("SELECT NOMBRE, CONTRASENIA FROM CLIENTEs WHERE NOMBRE='"+txtNOMBRE.Text+"' AND CONTRASENIA='" + txtCONTRASEÑA.Text + "'", conexion))
+                    using (SqlCommand cmd = new SqlCommand("SELECT NOMBRE, CONTRASENIA FROM CLIENTEs WHERE NOMBRE='"+txtNOMBRE.Text+"' AND CONTRASENIA='" + encriptar(txtCONTRASEÑA.Text) + "'", conexion))
                     {
                         SqlDataReader dr = cmd.ExecuteReader();
 
@@ -124,6 +125,28 @@ namespace VISTA
             FormRegistro formuRegistro = new FormRegistro(new MODELO.CLIENTE(), MODELO.ACCION.AGREGAR);
             formuRegistro.Show();
             this.Close();
+        }
+
+        static public string encriptar(string passVista)
+        {
+            string passEncriptado;
+            passEncriptado = string.Empty;
+            SHA512 sha512 = SHA512.Create();
+
+            UTF8Encoding encoding = new UTF8Encoding();
+
+            byte[] stream = null;
+
+            StringBuilder sb = new StringBuilder();
+            stream = sha512.ComputeHash(encoding.GetBytes(passVista));
+
+            for (int i = 0; i < stream.Length; i++)
+            {
+                sb.AppendFormat("{0:x1}", stream[i]);
+            }
+
+            return passEncriptado = sb.ToString();
+
         }
     }
 }
