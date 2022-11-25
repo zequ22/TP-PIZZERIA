@@ -3,8 +3,8 @@ Grupo 3 - 2022 - UAI
 
 Instalación:
 - Utilice Git Bash para descargar los archivos de este proyecto mediante el siguiente comando:
-* git clone https://github.com/zequ22/TP-POO-G3.git
-- Luego abra el archivo llamado “TP POO”, para eso debemos tener instalado previamente el Visual Studio .NET
+* git clone https://github.com/zequ22/TP-PIZZERIA.git
+- Luego abra el archivo llamado “TPPIZZERIA”, para eso debemos tener instalado previamente el Visual Studio .NET
 
 Modelo de Negocio:
 Este programa está destinado para su uso en una Pizzería, ya que en él vamos a poder registrar, modificar y eliminar a los clientes que se vinculen con el negocio.
