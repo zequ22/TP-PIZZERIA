@@ -1,5 +1,5 @@
-# TP-POO-G3
-Grupo 3 - POO - 2022 - UAI
+# TP-PIZZERIA-G3
+Grupo 3 - 2022 - UAI
 
 Instalación:
 - Utilice Git Bash para descargar los archivos de este proyecto mediante el siguiente comando:
@@ -36,4 +36,4 @@ Ruslender, Francisco Aaron.
 Maujo, Santiago. 
 Fumagallo Azuaga, Guillermo Lautaro.
 
-19/07/2022
+2022
